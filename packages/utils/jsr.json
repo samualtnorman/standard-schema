@@ -1,5 +1,8 @@
 {
-  "name": "@standard-schema/utils",
-  "version": "0.3.0",
-  "exports": "./src/index.ts"
+  "name": "@samual/publish-test",
+  "version": "0.0.0-iUHYblY6pNWj4OqKBX3SW",
+  "exports": "./src/index.ts",
+  "imports": {
+    "@standard-schema/spec": "jsr:@standard-schema/spec@^1.0.0"
+  }
 }
