@@ -1,6 +1,6 @@
 {
   "name": "@samual/publish-test",
-  "version": "0.0.0-iUHYblY6pNWj4OqKBX3SW",
+  "version": "0.0.0-kWLmjykpCET9INzNu9Qvk",
   "exports": "./src/index.ts",
   "imports": {
     "@standard-schema/spec": "jsr:@standard-schema/spec@^1.0.0"
