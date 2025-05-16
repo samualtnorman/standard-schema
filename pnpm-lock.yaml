@@ -48,8 +48,8 @@ importers:
   packages/utils:
     devDependencies:
       '@standard-schema/spec':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: npm:@jsr/standard-schema__spec@1.0.0-beta.4
+        version: '@jsr/standard-schema__spec@1.0.0-beta.4'
       '@vitest/coverage-v8':
         specifier: 2.1.2
         version: 2.1.2(vitest@2.1.2(@types/node@20.17.14))
@@ -702,6 +702,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@jsr/standard-schema__spec@1.0.0-beta.4':
+    resolution: {integrity: sha512-AsZnKHK8JC2KvCx2wfzY9upnxmH2mL2Yg8y4rex50HqC6gBmZqdVI/hJ23A6MgbIOZz+DQhqMxPDBppfgszHtg==, tarball: https://npm.jsr.io/~/11/@jsr/standard-schema__spec/1.0.0-beta.4.tgz}
 
   '@next/env@15.1.5':
     resolution: {integrity: sha512-jg8ygVq99W3/XXb9Y6UQsritwhjc+qeiO7QrGZRYOfviyr/HcdnhdBQu4gbp2rBIh2ZyBYTBMWbPw3JSCb0GHw==}
@@ -2382,6 +2385,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@jsr/standard-schema__spec@1.0.0-beta.4': {}
 
   '@next/env@15.1.5': {}
 
